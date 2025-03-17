@@ -1,0 +1,21 @@
+.listLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color:#373737;
+  background-color: white;
+  padding: 24px 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  &:hover{
+    transform: scale(1.05);
+    background-color: #f5f5f5;
+  }
+}
