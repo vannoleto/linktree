@@ -1,59 +1,60 @@
 # Linktree
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Este projeto é uma implementação personalizada de um Linktree, desenvolvida com Angular, que permite centralizar múltiplos links em uma única página.
 
-## Development server
 
-To start a local development server, run:
+![1](https://github.com/user-attachments/assets/d57ee503-7731-4899-97dd-49be84259c50)
 
-```bash
-ng serve
+
+## Funcionalidades
+
+- Centralização de múltiplos links em uma única página.
+- Design responsivo para dispositivos móveis e desktops.
+- Fácil personalização e gerenciamento de links.
+
+## Tecnologias Utilizadas
+
+- **Angular CLI** versão 19.1.5
+- **HTML5**
+- **CSS3**
+- **TypeScript**
+
+## Pré-requisitos
+
+- Node.js instalado
+- Angular CLI instalado globalmente
+
+## Como Executar o Projeto
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/vannoleto/linktree.git
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd linktree
+
+3. Instale as dependências: 
+    
+   ```bash
+   npm install
+
+4. Inicie o servidor de desenvolvimento
+
+    ```bash
+    ne serve
+
+## Estrutura do Projeto
+
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+linktree/
+├── src/               # Contém o código-fonte do aplicativo
+├── public/            # Arquivos públicos e estáticos
+├── .vscode/           # Configurações do Visual Studio Code
+├── angular.json       # Configurações do Angular CLI
+└── package.json       # Dependências e scripts do npm
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Observações
+Para adicionar ou remover links, edite o componente responsável pela listagem de links em src/app/. Você pode ajustar o design e o estilo modificando os arquivos CSS correspondentes.
